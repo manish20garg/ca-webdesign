@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>CA Ankit Garg</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        color: white;
+        /* color: black; */
+        margin: 0px;
+        padding: 0px;
+        background: url('/images/bg.jpg');
+
+    }
+
+    .left {
+        position: absolute;
+        left: 50px;
+        top: 20px;
+        border: 2px solid red;
+        display: inline-block;
+        border-radius: 5px;
+    }
+
+    .left img {
+        height: 50px;
+        width: 50px;
+        border-radius: 20px;
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        border: 2px solid red;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        border: 2px solid red;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+    }
+
+    .navbar li a:hover,
+    li a.active {
+        text-decoration: underline;
+        color: rgb(92, 88, 88);
+    }
+
+    .btn {
+        margin: 0px 10px;
+        padding: 4px 12px;
+        border: 2px gray solid;
+        background-color: black;
+        border-radius: 5px;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: gray;
+    }
+
+    .container {
+        border: 2px solid darkgray;
+    margin: 106px 80px;
+    padding: 35px;
+    width: 30%;
+    border-radius: 10px;
+    }
+
+    .formgroup input {
+        margin: 6px auto;
+        padding: 1px;
+        border: 2px solid rgb(145, 50, 66);
+        border-radius: 10px;
+        display: block;
+        text-align: center;
+        width: 250px;
+        font-size: 20px;
+    }
+
+    .container h3 {
+        text-align: center;
+    }
+
+    .container button {
+        margin: 12px auto;
+        display: block;
+        width: 50%
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="/Images/CA.jpg" alt="">
+            <div>
+                Garg & Co.
+            </div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <butt class="btn">Email us</butt>
+        </div>
+    </header>
+    <div class="container">
+        <h3>Get Tax Solutions here</h3>
+        <form action="backend.php" class="inputform">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Email">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Phone">
+            </div>
+            <div class="formgroup"></div>
+            <div class="formgroup"></div>
+            <button class="btn">Submit</button>
+
+        </form>
+
+    </div>
+</body>
+
+</html>
